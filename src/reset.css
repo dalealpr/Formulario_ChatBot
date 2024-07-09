@@ -1,0 +1,102 @@
+
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{
+margin: 0; padding: 0; border: 0; outline: none;  list-style: none;
+}
+ 
+ul, ol
+{
+list-style: none;
+}
+ 
+a
+{
+text-decoration: none;
+}
+ 
+a:hover
+{
+text-decoration: none;
+}
+ 
+.floatLeft
+{
+float: left;
+padding: .5em .5em .5em 0;
+}
+ 
+.floatRight
+{
+float: right;
+padding: .5em 0 .5em .5em;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+textarea{
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+:root {
+  /* TEXT */
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #101012;
+    --color-text-tertiary: #27ae60;
+
+  /* BACKGROUND */
+    --color-background-primary: #ececec;
+    --color-background-secondary: #ffffff;
+    --color-background-tertiary: #1bc99a;
+    --color-background-quaternary: #e8f6e9;
+    --color-background-quintiary: #4e4e4e;
+  }
+
+  body{
+    color: var(--color-text-primary);
+    background-color: var( --color-background-primary);
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+  #root{
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+    margin-right: 20px;
+    width: 95%;
+    border: none;
+
+}
+
+._contForm_pais_1qzlx_73{
+
+    border: none;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7{
+
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: var(--color-background-quaternary);
+    font-size: 17px;
+}
+
+.ReactFlagsSelect-module_selectOptionValue__vS99-{
+    color: #101012;
+}
+
+
+
+
